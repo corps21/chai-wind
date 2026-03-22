@@ -80,5 +80,5 @@ Typical deliverables for a utility-first CSS engine assignment:
 | **Public repository** | Link: https://github.com/corps21/chai-wind/ |
 | **Short video** |  https://www.youtube.com/watch?v=fYq7YUugrJE |
 | **NPM Repository** | https://www.npmjs.com/package/@corps21/chai-wind |
-| **Social post** | What you built, how it works, screenshot or demo, repo + demo links. Post URL: `YOUR_TWITTER_POST_URL` |
+| **Social post** | What you built, how it works, screenshot or demo, repo + demo links. Post URL: https://x.com/i/status/2035735811086245996 |
 
