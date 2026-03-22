@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chai-Wind Demo</title>
+</head>
+<body class="chai-p-10 chai-bg-gray-100">
+
+  <h1 class="chai-text-4xl chai-text-center chai-mb-8">
+    Chai-Wind Demo 🚀
+  </h1>
+
+  <!-- Typography -->
+  <section class="chai-mb-10">
+    <h2 class="chai-text-2xl chai-mb-4">Typography</h2>
+    <p class="chai-text-sm">Small text</p>
+    <p class="chai-text-lg">Large text</p>
+    <p class="chai-text-center chai-text-blue-500">Centered blue text</p>
+    <p class="chai-text-[28px] chai-text-[#ff5733]">
+      Custom size + color
+    </p>
+  </section>
+
+  <!-- Spacing + Colors -->
+  <section class="chai-mb-10">
+    <h2 class="chai-text-2xl chai-mb-4">Spacing & Colors</h2>
+    <div class="chai-bg-red-500 chai-text-white chai-p-4 chai-mb-4">
+      Padding + margin + background
+    </div>
+    <div class="chai-bg-green-500 chai-text-white chai-p-6">
+      Bigger spacing
+    </div>
+  </section>
+
+  <!-- Borders -->
+  <section class="chai-mb-10">
+    <h2 class="chai-text-2xl chai-mb-4">Borders</h2>
+    <div class="chai-border chai-rounded-lg chai-p-4 chai-mb-4">
+      Basic border + rounded
+    </div>
+    <div class="chai-border-2 chai-border-blue-500 chai-rounded-full chai-p-4">
+      Thick colored border
+    </div>
+  </section>
+
+  <!-- Flex -->
+  <section class="chai-mb-10">
+    <h2 class="chai-text-2xl chai-mb-4">Flexbox</h2>
+    <div class="chai-flex chai-justify-between chai-items-center chai-bg-gray-200 chai-p-4">
+      <div class="chai-bg-blue-500 chai-text-white chai-p-2">Item 1</div>
+      <div class="chai-bg-green-500 chai-text-white chai-p-2">Item 2</div>
+      <div class="chai-bg-red-500 chai-text-white chai-p-2">Item 3</div>
+    </div>
+  </section>
+
+  <!-- Grid -->
+  <section class="chai-mb-10">
+    <h2 class="chai-text-2xl chai-mb-4">Grid</h2>
+    <div class="chai-grid chai-grid-cols-3 chai-gap-4">
+      <div class="chai-bg-purple-500 chai-text-white chai-p-4">1</div>
+      <div class="chai-bg-pink-500 chai-text-white chai-p-4">2</div>
+      <div class="chai-bg-indigo-500 chai-text-white chai-p-4">3</div>
+    </div>
+  </section>
+
+  <!-- Width & Height -->
+  <section class="chai-mb-10">
+    <h2 class="chai-text-2xl chai-mb-4">Sizing</h2>
+    <div class="chai-w-full chai-bg-gray-300 chai-p-4">
+      Full width
+    </div>
+    <div class="chai-h-[100px] chai-bg-blue-300 chai-mt-4">
+      Custom height
+    </div>
+  </section>
+
+  <!-- Overflow -->
+  <section class="chai-mb-10">
+    <h2 class="chai-text-2xl chai-mb-4">Overflow</h2>
+    <div class="chai-w-[200px] chai-h-[100px] chai-overflow-auto chai-bg-gray-200">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </div>
+  </section>
+
+  <!-- Position -->
+  <section class="chai-mb-10 chai-relative chai-h-[200px] chai-bg-gray-200">
+    <h2 class="chai-text-2xl chai-mb-4">Position</h2>
+    <div class="chai-absolute chai-bg-red-500 chai-text-white chai-p-2">
+      Absolute Box
+    </div>
+  </section>
+
+  <!-- Z Index -->
+  <section class="chai-relative chai-h-[150px] chai-bg-gray-300">
+    <div class="chai-absolute chai-z-10 chai-bg-blue-500 chai-text-white chai-p-2">
+      z-10
+    </div>
+    <div class="chai-absolute chai-bg-red-500 chai-text-white chai-p-2">
+      z-0
+    </div>
+  </section>
+
+  <script type="module">
+    import start from "./index.js";
+    start();
+  </script>
+
+</body>
+</html>
