@@ -1,6 +1,6 @@
 import { handler } from "./handler.js";
 
-export default function start(prefix = "chai-") {
+function start(prefix = "chai-") {
 
   // 1. Scanning Dom for chai classes
   const elements = Array.from(document.querySelectorAll(`[class*="${prefix}"]`));
@@ -29,6 +29,6 @@ export default function start(prefix = "chai-") {
   });
 }
 
-start();
-
+export { start };
+export default start;
 
