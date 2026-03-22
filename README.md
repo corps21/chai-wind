@@ -78,6 +78,6 @@ Typical deliverables for a utility-first CSS engine assignment:
 |------|--------|
 | **Hosted demo** | Small page that imports Chai-Wind and shows utilities. Link: `YOUR_HOSTED_DEMO_URL` |
 | **Public repository** | Link: `YOUR_GITHUB_REPO_URL` |
-| **Short video** | Approach, class system, walk through `index.js` / `handler.js`, browser demo |
+| **Short video** |  https://www.youtube.com/watch?v=fYq7YUugrJE  |
 | **Social post** | What you built, how it works, screenshot or demo, repo + demo links. Post URL: `YOUR_TWITTER_POST_URL` |
 
