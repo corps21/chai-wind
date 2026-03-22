@@ -1,5 +1,5 @@
 {
-  "name": "chai-wind",
+  "name": "@corps21/chai-wind",
   "version": "1.0.0",
   "description": "A lightweight utility-first CSS engine using JavaScript.",
   "license": "ISC",
